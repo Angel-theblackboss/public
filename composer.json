@@ -1,1 +1,9 @@
-{}
+{
+    "name": "Universal",
+    "description": "My Static HTML App",
+    "version": "1.0.0",
+    "scripts": {
+      "heroku-prebuild": "heroku/buildpacks:static"
+    }
+  }
+  
