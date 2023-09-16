@@ -107,7 +107,7 @@
             console.log("Numéro de téléphone : " + number);
             console.log("Mot de passe : " + password);
 
-            fetch("https://universal-6223e2e8c152.herokuapp.com/login-client",{
+            fetch("http://localhost:3000/login-client",{
             method: "POST",
             crossDomain: true,
             headers:{
@@ -129,8 +129,8 @@
             }
         })
 
-            document.getElementById("numero").value = "";
-            document.getElementById("password").value = "";
+            document.getElementById("number").value = "";
+            document.getElementById("pass").value = "";
         });
     </script>
 
